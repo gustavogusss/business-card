@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent */
+  }
+
+.card {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+.card-header {
+    background-image: url('/images/eucalipto.png');
+    position: relative;
+    background-size: cover;
+    height: 30%;
+    position: relative;
+    background-position: center bottom; 
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+    border: 4px solid #466034;
+    border-radius: 50%;
+    background-image: url('/images/nilma.png');
+    background-size: cover;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+/* Contact Section */
+.contact-section {
+    padding: 20px;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.title {
+    font-family: serif;
+    font-size: 24px;
+    align-self: auto;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.subtitle{
+    margin-top: 10px;
+    font-size: 18px;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-decoration: underline;
+    text-align: center;
+    color: #af8f6d
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align icons horizontally */
+    margin-top: 20px;
+    height: 100vh;
+}
+
+/* Contact Icons */
+.contact-icons {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-top: 15px;
+     /* Adjust this value to control the border rounding */
+}
+
+.contact-icon {
+    width: 60px; /* Adjust this value to make the icons larger */
+    height: 60px; /* Adjust this value to make the icons larger */
+    background-color: #73951d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+/* Contact Information */
+.contact-info {
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    height: 40px;
+    background-color: #fff;
+    width: 100%;
+    padding-top: 5px;
+    margin-left: -20px;
+    height: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center; /* Align text vertically to the center */
+    justify-content: center; /* Align text horizontally to the center */
+}
