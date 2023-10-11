@@ -15,7 +15,7 @@ a {
 }
 
 .card-header {
-    background-image: url('/images/eucalipto.png');
+    background-image: url('/images/eucalipto.jpg');
     position: relative;
     background-size: cover;
     height: 30%;
@@ -30,7 +30,7 @@ a {
     height: 180px;
     border: 4px solid #466034;
     border-radius: 50%;
-    background-image: url('/images/nilma.png');
+    background-image: url('/images/nilma.jpg');
     background-position: -30px center;
     background-size: cover;
     position: absolute;
