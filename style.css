@@ -112,3 +112,11 @@ a {
     align-items: center; /* Align text vertically to the center */
     justify-content: center; /* Align text horizontally to the center */
 }
+
+@media print {
+    @page {
+        size: A4 portrait; /* Adjust the page size here */
+        margin: 1cm; /* Adjust the margins as needed */
+    }
+    
+}
